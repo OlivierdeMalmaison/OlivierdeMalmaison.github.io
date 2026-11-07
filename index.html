@@ -106,8 +106,11 @@
       <p class="eyebrow">Écrire à l'auteur</p>
       <h2>Contact</h2>
     </div>
-    <!-- Le formulaire sera relié à la boîte Gmail d'auteur à l'étape suivante -->
-    <form action="#" method="post" onsubmit="alert('Le formulaire sera activé très bientôt.');return false;">
+    <form action="https://formsubmit.co/odemalmaison@gmail.com" method="post">
+      <input type="hidden" name="_subject" value="Nouveau message depuis le site">
+      <input type="hidden" name="_next" value="https://olivierdemalmaison.github.io/merci.html">
+      <input type="hidden" name="_template" value="table">
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
       <div class="fields">
         <label>Nom<input type="text" name="nom" autocomplete="name" required></label>
         <label>E-mail<input type="email" name="email" autocomplete="email" required></label>
