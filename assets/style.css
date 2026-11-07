@@ -113,3 +113,9 @@ input:focus,textarea:focus{outline:2px solid var(--navy);outline-offset:1px}
 .site-footer a:hover{color:var(--gold)}
 
 @media print{.protected{display:none}}
+
+/* Réseaux sociaux en haut */
+.social{display:flex;flex-wrap:wrap;gap:8px;width:100%;justify-content:flex-end}
+.social a{font-size:13px;color:var(--gold);text-decoration:none;border:1px solid var(--navy-line);padding:6px 12px;border-radius:999px}
+.social a:hover{border-color:var(--gold);color:var(--paper)}
+@media (min-width:900px){.social{width:auto;order:3}}
