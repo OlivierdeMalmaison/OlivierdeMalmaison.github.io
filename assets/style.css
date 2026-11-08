@@ -153,3 +153,4 @@ form > label{flex:none}
 /* Lecture : texte justifié comme les manuscrits */
 .text p{text-align:justify;-webkit-hyphens:auto;hyphens:auto}
 .text p.sep{text-align:center}
+.text{font-family:'EB Garamond',Georgia,serif;font-size:21px;line-height:1.65}
