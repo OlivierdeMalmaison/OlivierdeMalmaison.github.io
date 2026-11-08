@@ -171,3 +171,8 @@ form > label{flex:none}
 .liste-nouvelles .card.book{padding-top:20px;gap:12px}
 .liste-nouvelles .card.book img{width:auto;height:260px;aspect-ratio:auto;margin:0 24px;align-self:flex-start;box-shadow:0 8px 20px rgba(15,24,48,.18)}
 .liste-nouvelles .card.book .x{font-size:14px;line-height:1.55}
+
+/* « Prévenez-moi » en fin de nouvelle */
+.prevenir{padding:8px 0 56px}
+.p-form{flex-direction:row;flex-wrap:wrap;gap:12px}
+.p-form input[type=email]{flex:1 1 240px}
