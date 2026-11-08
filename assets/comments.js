@@ -1,6 +1,6 @@
 // Commentaires : un bloc <div id="commentaires" data-page="..."></div> par page
 (function () {
-  var API = 'APPS_SCRIPT_URL';
+  var API = 'https://script.google.com/macros/s/AKfycby0C9YDnMwpPRrF6ON3T4O6YyY393LErl48LOSDhUt9lZJDcf_TdO3rFu9CzZTQzPUi/exec';
   var box = document.getElementById('commentaires');
   if (!box) return;
   var page = box.getAttribute('data-page');
