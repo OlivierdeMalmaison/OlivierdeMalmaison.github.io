@@ -137,3 +137,8 @@ input:focus,textarea:focus{outline:2px solid var(--navy);outline-offset:1px}
 
 /* Champs empilés : pas de hauteur forcée */
 form > label{flex:none}
+
+/* Nouvelles : couvertures */
+.card.book{padding:0 0 24px}
+.card.book img{width:100%;height:auto;aspect-ratio:600/850;object-fit:cover}
+.card.book .t,.card.book .x{padding:0 24px}
