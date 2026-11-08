@@ -146,3 +146,6 @@ form > label{flex:none}
 /* Babelio : lien texte dans la barre des réseaux */
 .social a.icon.babelio{font-family:var(--serif);font-size:19px;font-weight:600;color:var(--paper);line-height:24px;padding:6px 4px}
 .social a.icon.babelio:hover{color:var(--gold)}
+.card.book .read{align-self:flex-start;margin:4px 24px 0;padding:10px 22px}
+.card.book{justify-content:flex-start}
+.card.book .read{margin-top:auto}
