@@ -16,6 +16,10 @@
     .then(function (data) {
       var avis = (data && data.avis) || [];
       if (!avis.length) return;
+      for (var i = avis.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var x = avis[i]; avis[i] = avis[j]; avis[j] = x;
+      }
       avis.forEach(function (a) {
         var fig = document.createElement('figure');
         fig.className = 'review';
