@@ -131,3 +131,6 @@ input:focus,textarea:focus{outline:2px solid var(--navy);outline-offset:1px}
 .portrait-img{width:320px;max-width:100%;height:auto;aspect-ratio:4/5;object-fit:cover}
 .social{flex-direction:row;flex-wrap:nowrap}
 .social a.icon img{display:block;width:auto;height:24px;max-width:none}
+.brand{font-size:32px}
+.brand-sub{font-size:13px;margin-top:6px}
+@media (max-width:600px){.brand{font-size:28px}}
