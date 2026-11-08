@@ -154,3 +154,11 @@ form > label{flex:none}
 .text p{text-align:justify;-webkit-hyphens:auto;hyphens:auto}
 .text p.sep{text-align:center}
 .text{font-family:'EB Garamond',Georgia,serif;font-size:21px;line-height:1.65}
+
+/* Accueil : miniatures des nouvelles */
+.minis{display:flex;flex-direction:column;gap:14px;max-width:560px}
+.mini{display:flex;gap:18px;align-items:center;text-decoration:none;color:var(--paper);padding:10px;margin:-10px;border-radius:2px}
+.mini:hover{background:var(--navy-soft);color:var(--paper)}
+.mini img{width:64px;height:90px;object-fit:cover;flex:none;box-shadow:0 6px 16px rgba(0,0,0,.35)}
+.mini b{display:block;font-family:var(--serif);font-size:24px;font-weight:600;line-height:1.15}
+.mini span span{display:block;font-size:15px;color:#D8D3C7;margin-top:4px}
