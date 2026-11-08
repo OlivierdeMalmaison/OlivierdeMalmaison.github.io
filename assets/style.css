@@ -163,3 +163,14 @@ form > label{flex:none}
 .mini b{display:block;font-family:var(--serif);font-size:24px;font-weight:600;line-height:1.15}
 .mini span span{display:block;font-size:15px;color:#D8D3C7;margin-top:4px}
 .review figcaption a{color:var(--gold)}
+
+/* Page Nouvelles : une ligne par nouvelle, couverture à gauche */
+.liste-nouvelles{padding:36px 0 72px}
+.liste-nouvelles h1{font-size:clamp(36px,4.5vw,48px)}
+.liste-nouvelles .grid{grid-template-columns:1fr;gap:18px}
+.liste-nouvelles .card.book{display:grid;grid-template-columns:120px 1fr;grid-template-rows:auto auto 1fr;column-gap:28px;row-gap:8px;padding:20px 24px;align-items:start}
+.liste-nouvelles .card.book img{grid-row:1 / 4;width:120px;height:auto;aspect-ratio:auto;box-shadow:0 8px 20px rgba(15,24,48,.18)}
+.liste-nouvelles .card.book .t,.liste-nouvelles .card.book .x{padding:0}
+.liste-nouvelles .card.book .x{font-size:15px;line-height:1.55;max-width:720px}
+.liste-nouvelles .card.book .read{margin:6px 0 0;align-self:end;justify-self:start}
+@media (max-width:560px){.liste-nouvelles .card.book{grid-template-columns:90px 1fr;column-gap:16px}.liste-nouvelles .card.book img{width:90px}}
