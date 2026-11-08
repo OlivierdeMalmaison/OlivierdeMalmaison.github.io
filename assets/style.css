@@ -142,3 +142,7 @@ form > label{flex:none}
 .card.book{padding:0 0 24px}
 .card.book img{width:100%;height:auto;aspect-ratio:600/850;object-fit:cover}
 .card.book .t,.card.book .x{padding:0 24px}
+
+/* Babelio : lien texte dans la barre des réseaux */
+.social a.icon.babelio{font-family:var(--serif);font-size:19px;font-weight:600;color:var(--paper);line-height:24px;padding:6px 4px}
+.social a.icon.babelio:hover{color:var(--gold)}
