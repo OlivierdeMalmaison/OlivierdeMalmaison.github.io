@@ -176,3 +176,12 @@ form > label{flex:none}
 .prevenir{padding:8px 0 56px}
 .p-form{flex-direction:row;flex-wrap:wrap;gap:12px}
 .p-form input[type=email]{flex:1 1 240px}
+
+/* Téléphone : en-tête compact */
+@media (max-width:600px){
+  .site-header .wrap{gap:10px;padding-top:14px;padding-bottom:12px}
+  .nav{gap:6px 18px;font-size:15px;width:100%}
+  .social{justify-content:flex-start;margin-left:-6px}
+  .side img[alt^="Couverture de Nainen"]{width:220px!important}
+  section{padding:56px 0}
+}
