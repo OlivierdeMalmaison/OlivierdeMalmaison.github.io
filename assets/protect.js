@@ -7,6 +7,8 @@
     zone.addEventListener(evt, function (e) { e.preventDefault(); });
   });
   document.addEventListener('keydown', function (e) {
+    var tag = (e.target && e.target.tagName) || '';
+    if (tag === 'INPUT' || tag === 'TEXTAREA') return;
     var k = (e.key || '').toLowerCase();
     if ((e.ctrlKey || e.metaKey) && (k === 'c' || k === 'p' || k === 's' || k === 'a')) {
       e.preventDefault();
