@@ -134,3 +134,6 @@ input:focus,textarea:focus{outline:2px solid var(--navy);outline-offset:1px}
 .brand{font-size:32px}
 .brand-sub{font-size:13px;margin-top:6px}
 @media (max-width:600px){.brand{font-size:28px}}
+
+/* Champs empilés : pas de hauteur forcée */
+form > label{flex:none}
