@@ -149,3 +149,7 @@ form > label{flex:none}
 .card.book .read{align-self:flex-start;margin:4px 24px 0;padding:10px 22px}
 .card.book{justify-content:flex-start}
 .card.book .read{margin-top:auto}
+
+/* Lecture : texte justifié comme les manuscrits */
+.text p{text-align:justify;-webkit-hyphens:auto;hyphens:auto}
+.text p.sep{text-align:center}
