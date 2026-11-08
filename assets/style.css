@@ -162,3 +162,4 @@ form > label{flex:none}
 .mini img{width:64px;height:90px;object-fit:cover;flex:none;box-shadow:0 6px 16px rgba(0,0,0,.35)}
 .mini b{display:block;font-family:var(--serif);font-size:24px;font-weight:600;line-height:1.15}
 .mini span span{display:block;font-size:15px;color:#D8D3C7;margin-top:4px}
+.review figcaption a{color:var(--gold)}
