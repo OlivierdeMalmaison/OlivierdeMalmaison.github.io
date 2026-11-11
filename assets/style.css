@@ -185,3 +185,7 @@ form > label{flex:none}
   .side img[alt^="Couverture de Nainen"]{width:220px!important}
   section{padding:56px 0}
 }
+
+/* Accueil : le nom de l'auteur est le titre principal (pour Google), sans changer l'affichage */
+.brand-h1{margin:0;font:inherit;line-height:inherit}
+.hero-title{font-size:clamp(40px,6vw,64px)}
